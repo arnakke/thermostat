@@ -13,20 +13,21 @@ While there are a lot of similar products in the market, this thermostat sets it
 * Open software and hardware design
 
 ### Preliminary requirements:
-* Thermostat unit should be mountable on Danfoss type  RA radiator valve
-* Thermostat unit should be able to partially open the radiator valve in at least 20 steps
-* Thermostat unit should be able to completely close the radiator valve
-* Thermostat unit should be able to measure temperature in a resolution of 0.1 °C with +/- 0.5 °C precision in the range 0 - 30 °C
-* Thermostat unit should be able to regulate the temperature to within +/- 0.5 °C of the set point, measured as a 5 minute average (doors and windows closed, moderate ventilation)
-* Thermostat unit should have a battery life of minimum 6 months
-* Thermostat units communicate over wifi
-* The control app should be able to run on Android 4.4
-* Residents should be warned of low battery in a thermostat unit through the control app
-* Temperature can be set per room in the control app, with different settings for night and day
-* The hours for day and night can be configured in the control app
-* Changing the temperature in a room changes the set point of all units belonging to that room
-* Changing the temperature in a room should take effect on all thermostat units after max. 5 minutes
-* When all registered resident smartphones are away from the home, the temperature is lowered in all rooms relatively to the distance to the nearest resident (beeline)
-* The temperature set point will never go below 5 °C
-* A registered resident smartphone that doesn’t report its position should be considered to approach the home at a configurable speed with default 50 km/h
-* Thermostat units should be able to detect an open window based on change in temperature, possibly taking into consideration outdoor temperature (to be specified further)
+1. Thermostat unit should be mountable on Danfoss type  RA radiator valve
+2. Thermostat unit should be able to partially open the radiator valve in at least 20 steps
+3. Thermostat unit should be able to completely close the radiator valve
+4. Thermostat unit should be able to measure temperature in a resolution of 0.1 °C with +/- 0.5 °C precision in the range 0 - 30 °C
+5. Thermostat unit should be able to regulate the temperature to within +/- 0.5 °C of the set point, measured as a 5 minute average (doors and windows closed, moderate ventilation)
+6. Thermostat unit should have a battery life of minimum 6 months
+7. Thermostat units communicate over wifi
+8. The control app should be able to run on Android 4.4
+9. Residents should be warned of low battery in a thermostat unit through the control app
+10. Temperature can be set per room in the control app, with different settings for night and day
+11. The hours for day and night can be configured in the control app
+12. The time should be set automatically in the thermostat unit
+13. Changing the temperature in a room changes the set point of all units belonging to that room
+14. Changing the temperature in a room should take effect on all thermostat units after max. 5 minutes
+15. When all registered resident smartphones are away from the home, the temperature is lowered in all rooms relatively to the distance to the nearest resident (beeline)
+16. The temperature set point will never go below 5 °C
+17. A registered resident smartphone that doesn’t report its position should be considered to approach the home at a configurable speed with default 50 km/h
+18. Thermostat units should be able to detect an open window based on change in temperature, possibly taking into consideration outdoor temperature (to be specified further)
