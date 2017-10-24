@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8605
+D AD8605 opamp in 5-pin package
+K op amp amplifier operational 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf
+$ENDCMP
+#
+#End Doc Library
