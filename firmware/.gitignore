@@ -1,2 +1,5 @@
 /build/
-
+# Eclipse project settings
+/.cproject
+/.project
+/.settings/
